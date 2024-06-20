@@ -2,7 +2,12 @@
   "name": "cypress_project",
   "version": "1.0.0",
   "devDependencies": {
-    "typescript": "*",
-    "cypress": "*"
+    "@types/chance": "^1.1.6",
+    "cypress": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "chance": "^1.1.11",
+    "nanoid": "^5.0.7"
   }
 }
