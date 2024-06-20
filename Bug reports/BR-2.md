@@ -26,4 +26,4 @@ The element displays on the frontend and looks like a warning (or error) message
 
 ### **Attachment:**
 
-![Screenshot](Bug%20reports/BC-2%bug%screenshot.png)
+![Screenshot](https://github.com/OlgaLT/quipu_test_assignment/blob/main/Bug%20reports/BC-2%20bug%20screenshot.png)
