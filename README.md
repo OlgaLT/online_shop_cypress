@@ -62,7 +62,7 @@ yarn cypress open
 By the time the last project update was published, I had spent about 16 hours on the task.
 
 #### Challenges I faced
-1. The main challenge was to set up a local personal machine to run the project and decide on the tools. In work projects there is usually already a certain stack of tools. It may have disadvantages, but you don't have to spend time selecting all the tools and setting up the system.  For example, you don't have to choose a TMS or set up templates for test cases. The company usually already has a working tool that you can start working with right away.
+1. The main challenge was to set up a local personal machine to run the project and decide on the tools. 😅 In work projects there is usually already a certain stack of tools. It may have disadvantages, but you don't have to spend time selecting all the tools and setting up the system.  For example, you don't have to choose a TMS or set up templates for test cases. The company usually already has a working tool that you can start working with right away.
 2. The second difficulty was time estimation. Initially, the project didn't seem very complicated and probably would have been if I did not have to start from scratch. Unfortunately, there is not much I have done in 2 days.
 
 
