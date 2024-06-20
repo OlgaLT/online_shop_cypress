@@ -48,10 +48,10 @@ yarn cypress open
 ```
 
 ### Project scope
-- Test plan & strategy in [testCasesList]()
-- Designing test cases in [test cases](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Test%20cases) folder.
+- Test plan & strategy in [testPlanStrategy.md](https://github.com/OlgaLT/quipu_test_assignment/blob/main/Test%20cases/testPlanStrategy.md)
+- Designing test cases in [Test cases](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Test%20cases) folder.
 - Execution of manual tests based on the designed test cases.
-- Bug reporting in [bug-reports](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Bug%20reports) folder.
+- Bug reporting in [Bug reports](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Bug%20reports) folder.
 - Writing and running automated tests in Cypress.
 - Executing tests in different browsers (chrome, firefox).
 - Testing of various types including E2E, Functional, Navigation and Usability.
