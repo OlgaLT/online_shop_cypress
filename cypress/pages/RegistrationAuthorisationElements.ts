@@ -9,7 +9,7 @@ class RegistrationAuthorisationElements {
     public static readonly passwordInput = '#passwd';
     public static readonly registerButton = '#submitAccount';
     public static readonly accountHeader = '.nav .account';
-    public static readonly signOutButtoon = '.nav .logout';
+    public static readonly signOutButton = '.nav .logout';
 }
 
 export default RegistrationAuthorisationElements;

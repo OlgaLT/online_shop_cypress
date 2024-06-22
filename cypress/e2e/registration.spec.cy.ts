@@ -80,7 +80,7 @@ describe('Registration and authorisation', () => {
     // check the navigation menu, sign out should be present, account button should be visible
     cy.get(RegistrationAuthorisationElements.accountHeader).should('be.visible')
         .and('contain.text', testFirstName + ' ' + testLastName);
-    cy.get(RegistrationAuthorisationElements.signOutButtoon).should('be.visible');
+    cy.get(RegistrationAuthorisationElements.signOutButton).should('be.visible');
 
   })
 })

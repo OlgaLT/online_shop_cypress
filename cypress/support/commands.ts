@@ -23,3 +23,40 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('register', (email, firstName, lastName, password) => {
+  cy.request({
+    method: 'POST',
+    url: '/',
+    qs: {controller: 'authentication'},
+    form: true,
+    body: {
+      customer_firstname: firstName,
+      customer_lastname: lastName,
+      email: email,
+      passwd: password,
+      days: '',
+      months: '',
+      years: '',
+      email_create: 1,
+      is_new_customer: 1,
+      back: 'my-account',
+      submitAccount: ''
+    }
+  })
+});
+
+Cypress.Commands.add('login', (email, password) => {
+  cy.request({
+    method: 'POST',
+    url: '/',
+    qs: {controller: 'authentication'},
+    form: true,
+    body: {
+      email: email,
+      passwd: password,
+      back: 'my-account',
+      submitAccount: ''
+    }
+  })
+})
