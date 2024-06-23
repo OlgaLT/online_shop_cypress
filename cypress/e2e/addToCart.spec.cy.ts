@@ -44,7 +44,7 @@ describe('Shopping Process', () => {
     cy.url().should('include', 'controller=product')
 
   })
-  it.only('add item to the cart', () => {
+  it('add item to the cart', () => {
 
     cy.visit({
       url: '?id_product=2&controller=product#/1-size-s/8-color-white'

@@ -50,20 +50,22 @@ yarn cypress open
 ### Project scope
 - Test plan & strategy in [testPlanStrategy.md](https://github.com/OlgaLT/quipu_test_assignment/blob/main/Test%20cases/testPlanStrategy.md)
 - Designing test cases in [Test cases](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Test%20cases) folder.
-- Execution of manual tests based on the designed test cases.
+- Execution of manual tests based on the designed test cases. [Test Report](https://github.com/OlgaLT/quipu_test_assignment/blob/cfbd3c3b24acfb66a31c35878089a8e0fd47a6b9/Test%20cases/testReport.md)
 - Bug reporting in [Bug reports](https://github.com/OlgaLT/quipu_test_assignment/blob/3d0f620418fb2110e0517148e690864981b7281f/Bug%20reports) folder.
-- Writing and running automated tests in Cypress.
+- Writing and running automated tests in Cypress. For reference, some checks in the tests are disabled so that the tests don't fail.
 - Executing tests in different browsers (chrome, firefox).
 - Testing of various types including E2E, Functional, Navigation and Usability.
 
 ### Feedback
 
 #### How much time I spent in the task
-By the time the last project update was published, I had spent about 16 hours on the task.
+By the time the last project update was published, I had spent about 31 hours on the task.
 
 #### Challenges I faced
 1. The main challenge was to set up a local personal machine to run the project and decide on the tools. 😅 In work projects there is usually already a certain stack of tools. It may have disadvantages, but you don't have to spend time selecting all the tools and setting up the system.  For example, you don't have to choose a TMS or set up templates for test cases. The company usually already has a working tool that you can start working with right away.
 2. The second difficulty was time estimation. Initially, the project didn't seem very complicated and probably would have been if I did not have to start from scratch. Unfortunately, there is not much I have done in 2 days.
+3. Probably the biggest challenge was figuring out how to pass data for forms like adding an address. An API request with such a form does not return an error message, the status code is always 200, and the response to the request is an HTML document. As a result, it was not clear why no changes are made to the user. As a result of a long research I managed to find out that the form is sensitive to the token passed in the request. In this case, the token is a property of the page and changes on every reload. I managed to find this out by replacing cy.request() with cy.visit(), passing in the latter the parameters for the former. As a result, the HTML of the page was displayed with a notification that the token is invalid. If the request would return an adequate error message, the time spent on debugging would be much less.
+4. And as a final point, I might add that the test was working without being able to discuss issues with the developer.
 
 
 ---

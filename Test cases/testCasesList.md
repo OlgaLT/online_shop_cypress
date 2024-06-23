@@ -16,3 +16,4 @@
 3. Checkout Process:
 
 - [x] TC-8 Add Items to the Cart
+- [x] TC-9 Checkout with payment by cheque for user with filled address
