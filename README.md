@@ -57,7 +57,7 @@ yarn cypress open
 ```
 
 ### Project scope
-- Test plan & strategy in [testPlanStrategy.md](https://github.com/OlgaLT/quipu_test_assignment/tree/mail/Test cases/testPlanStrategy.md)
+- Test plan & strategy in [testPlanStrategy.md](Test cases/testPlanStrategy.md)
 - Designing test cases in [Test cases](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Test%20cases) folder.
 - Execution of manual tests based on the designed test cases. [Test Report](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Test%20cases/testReport.md)
 - Bug reporting in [Bug reports](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Bug%20reports) folder.
