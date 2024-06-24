@@ -28,17 +28,26 @@ This project is aimed at automating tests for an e-commerce site available at ht
     ```
 3. Install the dependencies:
     ```sh
-    npm install
+    npm install --save-dev
     ```
    or
     ```sh
-    yarn install
+    yarn install --dev
     ```
 
 ### Running the Tests
 
 #### Running All Tests
-To run all the tests:
+To run all the tests in headless mode:
+```sh
+npx cypress run 
+```
+or
+```sh
+yarn cypress run
+```
+
+To open Cypress Launchpad:
 ```sh
 npx cypress open 
 ```
@@ -71,4 +80,4 @@ By the time the last project update was published, I had spent about 31 hours on
 ---
 
 ### Additional Notes
-- **Contact:** For any queries, contact us at [buolabuis@gmail.com].
+- **Contact:** For any queries, contact me at [email](buolabuis@gmail.com).
