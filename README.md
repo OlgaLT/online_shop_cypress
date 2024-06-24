@@ -80,4 +80,4 @@ By the time the last project update was published, I had spent about 31 hours on
 ---
 
 ### Additional Notes
-- **Contact:** For any queries, contact me at [email](buolabuis@gmail.com).
+- **Contact:** For any queries, contact me at [email](mailto:buolabuis@gmail.com).
