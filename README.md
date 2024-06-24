@@ -28,17 +28,26 @@ This project is aimed at automating tests for an e-commerce site available at ht
     ```
 3. Install the dependencies:
     ```sh
-    npm install
+    npm install --save-dev
     ```
    or
     ```sh
-    yarn install
+    yarn install --dev
     ```
 
 ### Running the Tests
 
 #### Running All Tests
-To run all the tests:
+To run all the tests in headless mode:
+```sh
+npx cypress run 
+```
+or
+```sh
+yarn cypress run
+```
+
+To open Cypress Launchpad:
 ```sh
 npx cypress open 
 ```
@@ -48,7 +57,7 @@ yarn cypress open
 ```
 
 ### Project scope
-- Test plan & strategy in [testPlanStrategy.md](https://github.com/OlgaLT/quipu_test_assignment/blob/15745cef91fc29cf9ad658752262d0cad3ada9d9/Test%20cases/testPlanStrategy.md)
+- Test plan & strategy in [testPlanStrategy.md](Test cases/testPlanStrategy.md) [testPlanStrategy.md](Test cases/testPlanStrategy.md)
 - Designing test cases in [Test cases](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Test%20cases) folder.
 - Execution of manual tests based on the designed test cases. [Test Report](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Test%20cases/testReport.md)
 - Bug reporting in [Bug reports](https://github.com/OlgaLT/quipu_test_assignment/blob/4e4fdec00ac368b1ca64a1514840943bca018c26/Bug%20reports) folder.
@@ -71,4 +80,4 @@ By the time the last project update was published, I had spent about 31 hours on
 ---
 
 ### Additional Notes
-- **Contact:** For any queries, contact us at [buolabuis@gmail.com].
+- **Contact:** For any queries, contact me at [email](mailto:buolabuis@gmail.com).
