@@ -9,7 +9,7 @@
 
 
 ### Introduction
-This project is aimed at automating tests for an e-commerce site available at http://www.automationpractice.pl/index.php. The goal is to ensure the site's functionality, performance, and security through automated testing.
+This project is aimed to demonstrait my skills with test automation with Cypress. The playground is an e-commerce site available at http://www.automationpractice.pl/index.php. The goal is to check the site's functionality through automated testing and to demonstrate working flow from test design to automated tests and bug reporting.
 
 ### Setup and Installation
 
@@ -68,14 +68,7 @@ yarn cypress open
 ### Feedback
 
 #### How much time I spent in the task
-By the time the last project update was published, I had spent about 31 hours on the task.
-
-#### Challenges I faced
-1. The main challenge was to set up a local personal machine to run the project and decide on the tools. 😅 In work projects there is usually already a certain stack of tools. It may have disadvantages, but you don't have to spend time selecting all the tools and setting up the system.  For example, you don't have to choose a TMS or set up templates for test cases. The company usually already has a working tool that you can start working with right away.
-2. The second difficulty was time estimation. Initially, the project didn't seem very complicated and probably would have been if I did not have to start from scratch. Unfortunately, there is not much I have done in 2 days.
-3. Probably the biggest challenge was figuring out how to pass data for forms like adding an address. An API request with such a form does not return an error message, the status code is always 200, and the response to the request is an HTML document. As a result, it was not clear why no changes are made to the user. As a result of a long research I managed to find out that the form is sensitive to the token passed in the request. In this case, the token is a property of the page and changes on every reload. I managed to find this out by replacing cy.request() with cy.visit(), passing in the latter the parameters for the former. As a result, the HTML of the page was displayed with a notification that the token is invalid. If the request would return an adequate error message, the time spent on debugging would be much less.
-4. And as a final point, I might add that the test was working without being able to discuss issues with the developer.
-
+By the time the last project update was published, I had spent about 40 hours on the task.
 
 ---
 
