@@ -1,4 +1,4 @@
-# quipu_test_assignment
+
 
 ### Table of Contents
 1. [Introduction](#introduction)
