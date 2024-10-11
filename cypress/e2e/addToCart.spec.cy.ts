@@ -21,7 +21,6 @@ describe('Shopping Process', () => {
     cy.login(testEmailValue, testPassword)
 
   });
-  
   it('opens available product page description', () => {
     // Search for a product (e.g., "dress")
     cy.visit('/',
@@ -45,7 +44,6 @@ describe('Shopping Process', () => {
     cy.url().should('include', 'controller=product')
 
   })
-
   it('add item to the cart', () => {
 
     cy.visit({
