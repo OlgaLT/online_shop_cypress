@@ -11,7 +11,6 @@ class checkOutElements {
   public static readonly chequePayment = '.cheque';
   public static readonly successAlert = '.alert-success';
   public static readonly successAlertText: string = 'Your order on My Shop is complete.'
-
 }
 
 export default checkOutElements
