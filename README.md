@@ -20,7 +20,7 @@ This project is aimed to demonstrait my skills with test automation with Cypress
 #### Installation
 1. Clone the repository:
     ```sh
-    git clone git@github.com:OlgaLT/quipu_test_assignment.git
+    git clone git@github.com:OlgaLT/online_shop_cypress.git
     ```
 2. Navigate to the project directory:
     ```sh
